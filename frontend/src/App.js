@@ -15,7 +15,7 @@ function App() {
   const [searchBloodGroup, setSearchBloodGroup] = useState('');
   const [showForm, setShowForm] = useState(false);
 
-  const API_URL = 'http://localhost:5000/api';
+   const API_URL = 'https://blooddonationapplication-c4cpcxdachhzeebw.centralindia-01.azurewebsites.net/api';
 
   useEffect(() => {
     fetchDonors();
